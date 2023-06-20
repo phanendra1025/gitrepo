@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.repository-item {
+  list-style: none;
+  background-color: #f8f8ff;
+  width: 200px;
+  margin: 15px;
+}
+.item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.avatar-image {
+  width: 75px;
+}
+.name {
+  color: #e73959;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.details-containers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+.icons {
+  width: 15px;
+  height: 15px;
+  margin-left: 35px;
+}
+.count {
+  margin: 0px;
+  font-size: 14px;
+  width: 120px;
+  text-align: left;
+  margin-left: 10px;
+}
